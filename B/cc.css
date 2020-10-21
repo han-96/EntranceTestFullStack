@@ -1,0 +1,49 @@
+html {
+    font-family: 'Baloo 2', cursive;
+    font-size: 18px;
+}
+
+#buttons {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    padding-left: 25%;
+
+}
+
+button {
+    background-color: #34675C;
+    border: 2px solid #34675C;
+    border-radius: 5px;
+    color: #F1F1F2;
+    height: 40px;
+    padding: 0px 10px;
+    font-size: 18px;
+    width: 150px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+#submit, #again {
+    display: inline-block;
+}
+
+@media screen and (max-width: 800px) {
+    html {
+      width: 100%; 
+      font-size: 14px;
+    }
+  
+    #again, #submit {
+        font-size: 13px;
+    }
+
+    #submit {
+        width: 40%;
+    }
+  
+    #again {
+        width: 50%;
+    }
+  
